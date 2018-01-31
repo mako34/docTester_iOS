@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+ 
+- (IBAction)buttonPresse:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
+
 
 @end
 
